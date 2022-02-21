@@ -1,0 +1,20 @@
+{
+  "name": "agilusmail",
+  "version": "1.0.0",
+  "description": "Servidor de email Agilus",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon node index"
+  },
+  "author": "Agilus",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.8.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "nodemailer": "^6.7.2",
+    "nodemon": "^2.0.15"
+  }
+}
